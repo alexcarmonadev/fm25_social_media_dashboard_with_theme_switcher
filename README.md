@@ -1,13 +1,13 @@
 # Frontend Mentor - Social media dashboard with theme switcher solution
 
-:point_right: This is the [Social media dashboard with theme switcher](aqui va el reto de frontendmentor) challenge on Frontend Mentor.
+:point_right: This is the [Social media dashboard with theme switcher](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) challenge on Frontend Mentor.
 
 ## Overview
 
 ### Links
 
-:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](Aqui va tu solucion de frontendmentor) </br>
-:heavy_check_mark: My `Live` Site URL : [GitHub Pages](Aqui va tu solucion de github pages)
+:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-tVDlNHrug) </br>
+:heavy_check_mark: My `Live` Site URL : [GitHub Pages](https://alexcarmonadev.github.io/fm25_social_media_dashboard_with_theme_switcher/)
 
 Give a ⭐️ if you like this project!
 
