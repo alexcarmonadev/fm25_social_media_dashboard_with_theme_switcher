@@ -1,0 +1,62 @@
+@import "base/colors";
+@import "utils/mixins";
+
+.header__modes-label {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 3rem;
+    height: 1.56rem;
+    background: $toggle-dark;
+    border-radius: 4rem;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+
+    @include desktop {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 4px;
+        display: block;
+        width: 1.15rem;
+        height: 1.15rem;
+        background-color: var(--top-bg);
+        border-radius: 3rem;
+        -webkit-transition: -webkit-transform 0.3s ease;
+        transition: -webkit-transform 0.3s ease;
+        -o-transition: transform 0.3s ease;
+        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    }
+}
+
+.toggle {
+    visibility: hidden;
+
+    &:checked + .header__modes-label {
+        background: $toggle-light;
+
+        &:before {
+            -webkit-transform: translateX(21px);
+            -ms-transform: translateX(21px);
+            transform: translateX(21px);
+        }
+
+        @include desktop {
+            &:hover {
+                background: $toggle-dark;
+                cursor: pointer;
+            }
+        }
+    }
+}

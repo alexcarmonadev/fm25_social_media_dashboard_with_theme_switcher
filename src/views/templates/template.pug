@@ -1,0 +1,20 @@
+block config
+    include ../config/vars
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="initial-scale=1.0, width=device-width")
+        title= pageTitle
+        block SEO
+        block fonts
+        script(src="https://kit.fontawesome.com/a447d8f9b0.js" crossorigin="anonymous")
+        link(rel='stylesheet' href='./css/styles.css?t=1595822173097')
+        link(rel='icon' type='image/png' sizes='32x32' href='assets/images/favicon-32x32.png')
+
+    body.dark
+        block header
+        block main
+        block footer
+
+        script(type='module' src='./js/scripts.min.js')

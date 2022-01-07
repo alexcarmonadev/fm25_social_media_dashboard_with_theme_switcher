@@ -1,0 +1,56 @@
+@import "base/fonts";
+@import "base/colors";
+@import "utils/mixins";
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.15rem 1.5rem;
+    max-width: 1440px;
+    min-height: 100vh;
+    font-family: $font;
+    font-size: 14px;
+    background-color: var(--bg);
+    color: var(--text-main);
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 10%;
+        width: 100%;
+        z-index: -1;
+        background-color: var(--top-bg);
+        border-radius: 0 0 1.7rem 1.7rem;
+    }
+
+    @include desktop {
+        padding: 1.15rem 5.4rem;
+
+        &:before {
+            height: 23%;
+        }
+    }
+}
+
+.green {
+    color: $lime-green;
+}
+
+.green2 {
+    color: var(--lime-green2);
+}
+
+.red {
+    color: $bright-red;
+}

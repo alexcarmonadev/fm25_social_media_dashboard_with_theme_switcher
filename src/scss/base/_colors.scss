@@ -1,0 +1,40 @@
+// ------------Primary Colors------------
+$lime-green: hsl(163, 72%, 41%);
+$bright-red: hsl(356, 69%, 56%);
+
+$facebook: hsl(208, 92%, 53%);
+$twitter: hsl(203, 89%, 53%);
+$instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+$youTube: hsl(348, 97%, 39%);
+
+// ------------Dark Theme Colors------------
+.dark {
+    --bg: hsl(230, 17%, 14%);
+    --top-bg: hsl(232, 19%, 15%);
+    --card-bg: hsl(228, 28%, 20%);
+    --card-hover: hsl(228, 28%, 26%);
+    --text-main: hsl(228, 34%, 66%);
+    --text-secondary: hsl(0, 0%, 100%);
+    --lime-green2: hsl(0, 0%, 100%);
+    --footer: hsl(203, 89%, 53%);
+    --footer2: hsl(163, 72%, 41%);
+    --overview: hsl(0, 0%, 100%);
+}
+
+$toggle-dark: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+
+// ------------Light Theme Colors------------
+.light {
+    --bg: hsl(0, 0%, 100%);
+    --top-bg: hsl(225, 100%, 98%);
+    --card-bg: hsl(227, 47%, 96%);
+    --card-hover: hsl(227, 47%, 92%);
+    --text-main: hsl(228, 12%, 44%);
+    --text-secondary: hsl(230, 17%, 14%);
+    --lime-green2: hsl(163, 72%, 41%);
+    --footer: hsl(163, 72%, 41%);
+    --footer2: hsl(203, 89%, 53%);
+    --overview: hsl(228, 12%, 44%);
+}
+
+$toggle-light: hsl(230, 22%, 74%);
